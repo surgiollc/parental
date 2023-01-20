@@ -4,17 +4,26 @@
     "license": "MIT",
     "authors": [
         {
+            "role": "author",
             "name": "Caleb Porzio",
-            "email": "calebporzio@gmail.com"
+            "email": "calebporzio@gmail.com",
+            "homepage": "https://calebporzio.com/"
+        },
+        {
+            "role": "developer",
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com",
+            "homepage": "https://www.juststeveking.uk/"
         }
     ],
     "require": {
-        "illuminate/database": "~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
-        "illuminate/events": "~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0"
+        "php": "^8.0",
+        "illuminate/database": "^9.0",
+        "illuminate/events": "^9.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.6.0|~3.7.0|~3.8.0|^4.0|^5.0|^6.0",
-        "phpunit/phpunit": "^7.0|^8.0"
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
         "psr-4": {
